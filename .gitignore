@@ -1,6 +1,8 @@
 # Database files
 database/cv_users.accdb
-database/backups/*
+database/backups/*.accdb
+*.mdb
+*.accdb
 
 # Uploads
 uploads/photos/*
@@ -8,20 +10,56 @@ uploads/photos/*
 
 # Logs
 logs/*.log
+!logs/.gitkeep
 
-# Environment/config files
+# Configuration
 config.php
+
+# Environment
+.env
+.env.local
+.env.development
+.env.production
 
 # Windows
 Thumbs.db
 Desktop.ini
+*.lnk
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.sublime-*
 
-# Temporary files
+# Temp files
 *.tmp
 *.temp
+~$*
+
+# Backup files
+*.bak
+*.backup
+
+# Composer
+vendor/
+composer.lock
+
+# Node
+node_modules/
+package-lock.json
+
+# Debug
+debug.log
+error.log
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+
+# System
+.DS_Store
+.AppleDouble
+.LSOverride

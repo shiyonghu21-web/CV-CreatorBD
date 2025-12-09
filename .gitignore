@@ -1,0 +1,27 @@
+# Database files
+database/cv_users.accdb
+database/backups/*
+
+# Uploads
+uploads/photos/*
+!uploads/photos/.gitkeep
+
+# Logs
+logs/*.log
+
+# Environment/config files
+config.php
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
